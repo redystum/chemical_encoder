@@ -1,4 +1,6 @@
-<img src="./images/encoder.gif">
+<p align="center">
+  <img src="./images/encrypt.gif" alt="Sublime's custom image"/>
+</p>
 
 # Chemical Encoder
 Program that transforms a string into elements of the periodic table.
