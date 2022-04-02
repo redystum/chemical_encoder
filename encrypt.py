@@ -70,6 +70,8 @@ try:
                 final += f'{data["len1"][f"{inp[i]}"]["number"]} '
                 names += f'{data["len1"][f"{inp[i]}"]["name"]} '
                 names_list += f'{data["len1"][f"{inp[i]}"]["number"]} = {data["len1"][f"{inp[i]}"]["name"]}\n'
+            elif inp[i] == " ":
+                final += " "
             else:
                 final += f'{inp[i]} '
         else:
@@ -77,6 +79,8 @@ try:
                 final += f'{data["len1"][f"{inp[i]}"]["number"]}'
                 names += f'{data["len1"][f"{inp[i]}"]["name"]}'
                 names_list += f'{data["len1"][f"{inp[i]}"]["number"]} = {data["len1"][f"{inp[i]}"]["name"]}'
+            else:
+                final += f'{inp[i]}'
 
         i += 1
 
