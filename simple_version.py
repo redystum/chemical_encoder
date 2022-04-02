@@ -131,7 +131,7 @@ data = {
 
 inp = input("""
 Write a sentence to be converted chemically
-=>""")
+=> """)
 
 # write a function tath takes a string and devolve a array of each letter
 
