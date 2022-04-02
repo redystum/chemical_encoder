@@ -1,4 +1,5 @@
 <img src="./images/encoder.gif">
+
 # Chemical Encoder
 Program that transforms a string into elements of the periodic table.
 
